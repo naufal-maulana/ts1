@@ -15,15 +15,22 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-
+print("---------------------------------------------")
+print("---------------------------------------------")
 print(bcolors.ENDC,"Script Python Untuk PC dan ANDROID ")
-print(" --------------------------------------------")
+print("---------------------------------------------")
+print("---------------------------------------------")
 print(" By User Chou")
 print(" Apa Perangkat Lunak Anda ?"
       "\n1.PC"
       "\n2.Android")
+print("---------------------------------------------")
+
 inputhome = int(input("Pilihan Anda >> "))
 class main:
+      print("---------------------------------------------")
+      print("---------------------------------------------")
+      print("---------------------------------------------")
       def backfb(awe):
             print("Dapatkan password Dengan chat di FB : Ustaz Chou")
             awe=str(input("Masukan Password"))
@@ -139,4 +146,4 @@ class main:
 
       else:
             print(bcolors.FAIL,"Pilihan Anda tidak Ditemukan\n'Coba Gunakan Sesuai Dengan Number Yang Tersedia!'")
-
+main.mainloop()
