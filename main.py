@@ -25,12 +25,14 @@ print(" Apa Perangkat Lunak Anda ?"
       "\n1.PC"
       "\n2.Android")
 print("---------------------------------------------")
+import os
+os.system('cls||clear')
 
 inputhome = int(input("Pilihan Anda >> "))
 class main:
-      print("---------------------------------------------")
-      print("---------------------------------------------")
-      print("---------------------------------------------")
+      print("\n\n\n\n\n\n\n\n\n")
+      print("")
+      print("")
       def backfb(awe):
             print("Dapatkan password Dengan chat di FB : Ustaz Chou")
             awe=str(input("Masukan Password"))
